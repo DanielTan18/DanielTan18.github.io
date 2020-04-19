@@ -232,7 +232,6 @@ p{
   max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 6rem;
-  text-align:center;
 }
 
 .project {
@@ -263,7 +262,6 @@ a:hover {
   background-position: 50% 50%;
   background-repeat:   no-repeat;
   background-size:     cover;
-  text-align:center;
 }
 
 .contact-section {
