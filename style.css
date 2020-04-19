@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
-/*
+
 @media (max-width: 75em) {
   html {
     font-size: 60%;
@@ -23,7 +23,7 @@
     
   }
 }
-*/
+
 html, body{
   font-family: 'Raleway', sans-serif;
   scroll-behavior: smooth;
