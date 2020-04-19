@@ -19,7 +19,7 @@
 /* 460px / 16px = 28.75em */
 @media (max-width: 28.75em) {
   html {
-    font-size:40%; /55
+    font-size:55%; /55
     
   }
 }
