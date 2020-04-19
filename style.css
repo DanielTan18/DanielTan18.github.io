@@ -5,21 +5,21 @@
 
 @media (max-width: 75em) {
   html {
-    font-size: 60%;
+    font-size: 80%; //60
   }
 }
 
 /* 980px / 16px = 61.25em */
 @media (max-width: 61.25em) {
   html {
-    font-size: 58%; //58
+    font-size: 58%;
   }
 }
 
 /* 460px / 16px = 28.75em */
 @media (max-width: 28.75em) {
   html {
-    font-size:55%; /55
+    font-size: 55%;
     
   }
 }
