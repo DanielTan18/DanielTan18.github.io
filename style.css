@@ -206,7 +206,7 @@ p{
 
 .projects-section{
   text-align:center;
-  padding: 5rem 2rem;
+  padding: 0rem 0rem; //5 2
   margin-top: 5rem;
   background:linear-gradient(0deg, #764ba2, #667eea,#0082c8,#56CCF2);
 
