@@ -213,7 +213,7 @@ p{
 }
 
 .projects-section-header{
-  max-width:800px;
+  max-width:1000px; //800
   color: white;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid white;
@@ -229,7 +229,7 @@ p{
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 4rem;
   width: 100%;
-  max-width: 1280px;
+  max-width: 1400px; //1280
   margin: 0 auto;
   margin-bottom: 6rem;
 }
