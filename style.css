@@ -272,7 +272,7 @@ a:hover {
   text-align: center;
   //width: 100%;
   height: 80vh;
-  //padding: 0 2rem;
+  padding: 0 2rem;
   background: var(--main-gray);
 }
 .contact-section-header > h2 {
