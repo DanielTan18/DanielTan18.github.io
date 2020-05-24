@@ -24,6 +24,21 @@
   }
 }
 
+@media only screen and (min-width: 600px) {
+    .project-grid {
+      display: grid;
+      grid-template-columns:repeat(2, 1fr);
+      grid-gap: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .project-grid {
+      display: grid;
+      grid-template-columns:repeat(3, 1fr);
+      grid-gap: 2rem;
+    }
+
 html, body{
   font-family: 'Raleway', sans-serif;
   scroll-behavior: smooth;
