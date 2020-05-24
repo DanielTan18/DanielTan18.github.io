@@ -273,6 +273,11 @@ a:hover {
 .contact-section-header > h2 {
   font-size: 4rem;
   color:white;
+  margin: 0px;
+}
+.contact-section-header > p {
+  font-size: 2rem;
+  color:white;
   margin: 5px;
 }
 
