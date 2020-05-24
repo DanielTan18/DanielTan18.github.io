@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 
-/* @media only screen and (min-width: 600px) {
+ @media only screen and (min-width: 600px) {
     .project-grid {
       display: grid;
       grid-template-columns:repeat(2, 1fr);
@@ -16,9 +16,9 @@
       display: grid;
       grid-template-columns:repeat(3, 1fr);
       grid-gap: 2rem;
-    } */
-
-@media (max-width: 75em) {
+    } 
+}
+/* @media (max-width: 75em) {
   html {
     font-size: 60%;
   }
@@ -35,7 +35,7 @@
     font-size: 55%;
     
   }
-}
+} */
 
 html, body{
   font-family: 'Raleway', sans-serif;
