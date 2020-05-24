@@ -291,7 +291,7 @@ a:hover {
 .contact-section-header > h2 {
   font-size: 4rem;
   color:white;
-  margin: 0;
+  //margin: 0;
 }
 
 .contact-links {
@@ -299,7 +299,6 @@ a:hover {
   justify-content: center;
   width: 100%;
   max-width: 980px;
-
   flex-wrap: wrap;
 }
 
