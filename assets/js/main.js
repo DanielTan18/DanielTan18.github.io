@@ -190,3 +190,50 @@ themeButton.addEventListener('click',()=>{
     localStorage.setItem('selected-theme',getCurrentTheme())
     localStorage.setItem('selected-icon',getCurrentIcon())
 })
+
+/* SCROLL REVEAL ANIMATION */
+const sr = ScrollReveal({
+    origin:'top',
+    distance: '80px',
+    duration:1000,
+    reset:true
+})
+
+/*scroll home*/
+sr.reveal('.home__title',{})
+sr.reveal('.home__social__buttons',{interval:400})
+sr.reveal('.home__subtitle',{delay:400})
+sr.reveal('.home__description',{delay:800})
+sr.reveal('.home__img',{delay:400})
+sr.reveal('.home_contactme__button',{delay:1200})
+sr.reveal('.home__scroll',{delay:1600})
+
+sr.reveal('.about__title',{})
+sr.reveal('.about__img',{delay:400})
+sr.reveal('.about__description',{delay:400})
+sr.reveal('.about__info-title',{delay:800,interval:400})
+sr.reveal('.about__info-name',{delay:800,interval:400})
+sr.reveal('.about__buttons',{delay:2000})
+
+sr.reveal('.skills__title',{})
+sr.reveal('.skills__content',{delay:200,interval:200})
+
+sr.reveal('.qualification__subject',{})
+sr.reveal('.qualification__container',{delay:200})
+
+sr.reveal('.services__title',{})
+sr.reveal('.services__content',{delay:200,interval:400})
+
+sr.reveal('.portfolio__subject',{})
+sr.reveal('.portfolio__container',{delay:400})
+
+sr.reveal('.project__bg',{})
+
+// sr.reveal('.testimonial__subject',{})
+// sr.reveal('.testimonial__container',{delay:400})
+
+sr.reveal('.contact__subject',{})
+sr.reveal('.contact__icon',{interval:400})
+sr.reveal('.contact__information',{interval:400})
+sr.reveal('.contact__content',{delay:1200,interval:200})
+sr.reveal('.contact_sendmessage_button',{delay:2400})
