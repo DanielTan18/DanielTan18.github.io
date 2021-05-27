@@ -195,8 +195,7 @@ themeButton.addEventListener('click',()=>{
 const sr = ScrollReveal({
     origin:'top',
     distance: '80px',
-    duration:1000,
-    reset:true
+    duration:1000
 })
 
 /*scroll home*/
@@ -222,7 +221,7 @@ sr.reveal('.qualification__subject',{})
 sr.reveal('.qualification__container',{delay:200})
 
 sr.reveal('.services__title',{})
-sr.reveal('.services__content',{delay:200,interval:400})
+sr.reveal('.services__button',{delay:200,interval:400})
 
 sr.reveal('.portfolio__subject',{})
 sr.reveal('.portfolio__container',{delay:400})
@@ -236,4 +235,4 @@ sr.reveal('.contact__subject',{})
 sr.reveal('.contact__icon',{interval:400})
 sr.reveal('.contact__information',{interval:400})
 sr.reveal('.contact__content',{delay:1200,interval:200})
-sr.reveal('.contact_sendmessage_button',{delay:2400})
+sr.reveal('.contact_sendmessage_button',{delay:2000})

@@ -97,6 +97,7 @@ body.dark-theme{
 
 .change-theme:hover{
     color: var(--first-color);
+    transition: all 0.3s ease 0s;
 }
 
 /*==================== BASE ====================*/
@@ -193,6 +194,7 @@ img{
 
 .nav__logo:hover{
     color:var(--first-color);
+    transition: all 0.3s ease 0s;
 }
 
 .nav__toggle{
@@ -202,6 +204,7 @@ img{
 
 .nav__toggle:hover{
     color:var(--first-color);
+    transition: all 0.3s ease 0s;
 }
 
 @media screen and (max-width:767px){
@@ -235,6 +238,7 @@ img{
 
     .nav__link:hover{
         color:var(--first-color);
+        transition: all 0.3s ease 0s;
     }
 
     .nav__icon{
@@ -252,6 +256,7 @@ img{
 
     .nav__close:hover{
         color:var(--first-color-alt);
+        transition: all 0.3s ease 0s;
     }
 
 /* show menu */
@@ -294,7 +299,7 @@ img{
 .home__social-icon:hover{
     color:var(--first-color-alt);
     transform:translateX(.25rem);
-    transition:.3s;
+    transition: all 0.3s ease 0s;
 }
 
 .home__blob{
@@ -365,6 +370,7 @@ img{
 
 .button:hover{
     background-color: var(--first-color-alt);
+    transition: all 0.3s ease 0s;
 }
 
 .button__icon{
@@ -380,6 +386,7 @@ img{
 
 .button--white:hover{
     background-color: #EEE;
+    transition: all 0.3s ease 0s;
 }
 
 .button--flex{
@@ -400,6 +407,7 @@ img{
 .button--link:hover{
     background-color: transparent;
     color:var(--first-color-alt);
+    transition: all 0.3s ease 0s;
 }
 /*==================== ABOUT ====================*/
 .about__img{
@@ -527,7 +535,7 @@ img{
 }
 
 .skills__firebase{
-    width:70%;
+    width:50%;
 }
 
 .skills__react{
@@ -544,6 +552,14 @@ img{
 
 .skills__saps{
     width:40%;
+}
+
+.skills__aws{
+    width:50%;
+}
+
+.skills__alibaba{
+    width:50%;
 }
 
 .skills__close .skills__list{
@@ -564,6 +580,7 @@ img{
     display:flex;
     justify-content:space-evenly;
     margin-bottom: var(--mb-2);
+    column-gap:1rem;
 }
 
 .qualification__button{
@@ -574,6 +591,7 @@ img{
 
 .qualification__button:hover{
     color:var(--first-color);
+    transition: all 0.3s ease 0s;
 }
 
 .qualification__icon{
@@ -938,6 +956,7 @@ textarea{
 
 .footer__link:hover{
     color: var(--first-color-lighter);
+    transition: all 0.3s ease 0s;
 }
 
 .footer__social{
@@ -947,6 +966,7 @@ textarea{
 
 .footer__social:hover{
     color: var(--first-color-lighter);
+    transition: all 0.3s ease 0s;
 }
 
 .footer__copy{
