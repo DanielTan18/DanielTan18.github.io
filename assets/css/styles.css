@@ -419,7 +419,7 @@ img{
 }
 
 .about__description{
-    text-align:center;
+    text-align:justify;
     margin-bottom:var(--mb-2-5);
 }
 
@@ -1205,7 +1205,7 @@ textarea{
     }
 
     .about__description{
-        text-align: initial;
+        text-align: justify;
     }
 
     .about__info{
